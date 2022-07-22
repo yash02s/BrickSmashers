@@ -37,11 +37,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Level Designer\LevelDesigner.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Brick.cs" />
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Boundaries.cs" />
+     <Compile Include="Assets\Scripts\DestroyObj.cs" />
      <Compile Include="Assets\Scripts\PowerUp.cs" />
+     <Compile Include="Assets\Scripts\Panel.cs" />
      <Compile Include="Assets\Scripts\Paddle.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Level Designer\SCR_Level.cs" />

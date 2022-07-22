@@ -27,9 +27,5 @@ public class ScoreManager : MonoBehaviour
     public void UpdateUI()
     {
         scoreText.text = "Score: " + currentScore.ToString("D5");
-        if(currentScore==1550)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-        }
     }
 }

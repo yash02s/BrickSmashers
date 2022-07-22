@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Loader1()
     {
-        
+        SceneManager.LoadScene("LVL1");
     }
-
-    // Update is called once per frame
-    void Update()
+     public void Loader2()
     {
-        
+        SceneManager.LoadScene("LVL2");
+    } public void Loader3()
+    {
+        SceneManager.LoadScene("LVL3");
+    } public void Loader4()
+    {
+        SceneManager.LoadScene("LVL4");
+    } public void Loader5()
+    {
+        SceneManager.LoadScene("LVL5");
     }
 }

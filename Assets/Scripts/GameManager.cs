@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -38,7 +39,7 @@ void RemoveLife()
     UpdateUI();
     if(lifes==0)
     {
-        print("GAME OVER");
+        SceneManager.LoadScene("Lose");
         return ;
     }
     Createball();
@@ -63,7 +64,7 @@ public void LostBall(GameObject ball)
     brickList.Remove(brick);
     if(brickList.Count==0)
     {
-        print("You Won");
+        SceneManager.LoadScene("Win");
     }
   }
 
