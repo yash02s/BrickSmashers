@@ -39,7 +39,7 @@ void RemoveLife()
     UpdateUI();
     if(lifes==0)
     {
-        SceneManager.LoadScene("Lose");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
         return ;
     }
     Createball();
@@ -64,7 +64,7 @@ public void LostBall(GameObject ball)
     brickList.Remove(brick);
     if(brickList.Count==0)
     {
-        SceneManager.LoadScene("Win");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
   }
 
