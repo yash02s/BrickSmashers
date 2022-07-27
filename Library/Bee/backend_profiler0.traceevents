@@ -1,0 +1,780 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1658871390613531, "dur":786, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871390614330, "dur":206, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1658871390614587, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1658871390614623, "dur":411, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1658871390615060, "dur":643, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871390615703, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572376, "dur":231, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572607, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572623, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572626, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572634, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572636, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572647, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572649, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572656, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572659, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572665, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572667, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572674, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572676, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572684, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572686, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572693, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572712, "dur":39, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392572762, "dur":1283, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1658871390615330, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390615750, "dur":3703, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390619466, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658871390619467, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390619494, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658871390619497, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390619521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390619792, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658871390626064, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1658871390626212, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390626274, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390628491, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1658871390630591, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1658871390630781, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390630909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390630927, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1658871390632422, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390632509, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390632552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390632761, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390634709, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1658871390634805, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390635259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390635271, "dur":26305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1658871390661707, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390661766, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390661818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390661834, "dur":121503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390783450, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390783584, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390783844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390783850, "dur":83409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390867284, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871390867305, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390867338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871390867348, "dur":161426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391028798, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391028818, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391028850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391028926, "dur":104461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391133405, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391133427, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391133475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391133484, "dur":61684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391195187, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391195203, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391195228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391195236, "dur":76369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391271629, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391271651, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391271689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391271730, "dur":57016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391328772, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391328925, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391328958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391328966, "dur":50922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391379920, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391379943, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391379981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391379991, "dur":56316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391436328, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391436346, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391436389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391436396, "dur":75003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391511421, "dur":1059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391512481, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391512548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391512556, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391513419, "dur":101387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391614807, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391614868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391614877, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391615837, "dur":2994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391618832, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391618876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391618885, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391619497, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871391619512, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391619537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871391619543, "dur":587211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871392206782, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871392206809, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871392206857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871392206869, "dur":57532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871392264424, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871392264440, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871392264473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658871392264482, "dur":241981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658871392506474, "dur":65920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390615997, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390615997, "dur":3525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390619522, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1658871390619591, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390619652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390636061, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1658871390637218, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1658871390637296, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390637333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390637507, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1658871390638428, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871390638456, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390638485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390638510, "dur":143378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871390781947, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871390782097, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390782253, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390782300, "dur":82129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871390864452, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871390864476, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390864548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871390864559, "dur":94326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871390963598, "dur":377803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391341402, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391341435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391341441, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391342557, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391342658, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391342823, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391342861, "dur":58256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391401142, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391401165, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391401197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391401204, "dur":48432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391449654, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391449676, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391449704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391449712, "dur":54588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391504326, "dur":165251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391669578, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391669636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391669645, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391671422, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871391671527, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391671707, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871391671750, "dur":358048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871392029816, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871392029832, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871392029860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871392029868, "dur":236956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871392266843, "dur":119219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871392386062, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871392386105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658871392386127, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658871392386614, "dur":185762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390615376, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390615794, "dur":3729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390619523, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1658871390619593, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390619638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390636114, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1658871390637228, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871390637263, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390637297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390637806, "dur":145250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871390783254, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871390783394, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390783595, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871390783639, "dur":223144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391006823, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391006856, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391006914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391006931, "dur":81900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391088850, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391088866, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391088897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391088906, "dur":106497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391195511, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391195681, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391195871, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391195923, "dur":43555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391239548, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391239575, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391239612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391239620, "dur":104884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391344547, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391344563, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391344591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391344598, "dur":126137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391470752, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391470769, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391470794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391470801, "dur":81251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391552077, "dur":4873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391556952, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391557017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391557028, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391557877, "dur":100381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391658259, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391658323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391658333, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391659036, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391659057, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391659090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391659098, "dur":220001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391879210, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871391879275, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391879301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871391879308, "dur":246054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871392125379, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871392125395, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871392125422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871392125430, "dur":225699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658871392351360, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658871392351473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871392351486, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658871392354817, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level14.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658871392354860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871392354871, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level14.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658871392358953, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level11.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658871392359542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871392360825, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level11.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658871392363583, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658871392363622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658871392363629, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658871392366183, "dur":206206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390615525, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390615850, "dur":3637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390619488, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658871390619552, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390619581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390620519, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658871390626240, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1658871390626370, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390626643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390627560, "dur":2703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1658871390630397, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658871390630531, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390630592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390630610, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658871390633624, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871390633733, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390633775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390633808, "dur":147907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871390781780, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871390781811, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390781838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390781847, "dur":93143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871390875008, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871390875026, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390875053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871390875060, "dur":128126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391003240, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391003287, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391003365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391003387, "dur":112486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391115901, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391115926, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391115971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391115983, "dur":81629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391197641, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391197659, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391197683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391197690, "dur":43554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391241263, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391241281, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391241309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391241317, "dur":54295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391295629, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391295645, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391295670, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391295678, "dur":49625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391345321, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391345335, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391345356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391345362, "dur":76183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391421573, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391421601, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391421649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391421662, "dur":31373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391453053, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391453074, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391453099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391453106, "dur":73210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391526364, "dur":75784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391602150, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391602214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391602226, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391603976, "dur":3493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391607470, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391607530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391607539, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391609098, "dur":53376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391662475, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391662563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391662574, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391664025, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871391664040, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391664073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871391664080, "dur":383130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871392047268, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871392047315, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871392047413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871392047435, "dur":210361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871392257813, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871392257827, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871392257868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658871392257875, "dur":314443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658871392572331, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1658871392572332, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390615676, "dur":226, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390615902, "dur":3619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390619522, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1658871390619599, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390619635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390635381, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1658871390636699, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1658871390636772, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390636809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390637113, "dur":144534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1658871390781790, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871390781814, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390781839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390781847, "dur":92360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871390874225, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871390874244, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390874272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390874287, "dur":62815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871390937119, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871390937135, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390937158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871390937166, "dur":189499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391126687, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391126708, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391126741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391126749, "dur":47526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391174298, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391174321, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391174358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391174367, "dur":43984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391218406, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391218433, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391218486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391218499, "dur":70267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391288790, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391288808, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391288835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391288844, "dur":50649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391339511, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391339528, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391339585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391339594, "dur":47179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391386796, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391386814, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391386844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391386853, "dur":49220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391436094, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391436121, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391436155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391436164, "dur":28866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391465059, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391465076, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391465107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391465115, "dur":285104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391750241, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391750260, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391750295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391750305, "dur":174273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391924596, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871391924610, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391924634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871391924640, "dur":361603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658871392286263, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1658871392286296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392286319, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1658871392287242, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392287265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392287272, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392289193, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392289330, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392289370, "dur":6209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392295633, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392295697, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392295717, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392297581, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392297643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392297662, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392299272, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392299339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392299358, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392308394, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392308429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392308438, "dur":12334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392320801, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392320832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392320841, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392321654, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1658871392321678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392321686, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1658871392322386, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392322411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392322418, "dur":9321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392331766, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392331798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392331809, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392334464, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392334488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392334495, "dur":5672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658871392340181, "dur":3328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1658871392343510, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392343608, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392343640, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1658871392345636, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level8" }}
+,{ "pid":12345, "tid":5, "ts":1658871392345698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392345714, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level8" }}
+,{ "pid":12345, "tid":5, "ts":1658871392348123, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392348182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392348206, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392350276, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392350366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392350378, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392352195, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1658871392352237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392352248, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1658871392354915, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level14" }}
+,{ "pid":12345, "tid":5, "ts":1658871392354956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392354966, "dur":4344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level14" }}
+,{ "pid":12345, "tid":5, "ts":1658871392359334, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level10.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392359376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392359385, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level10.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392362767, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392362840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392362850, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658871392363826, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1658871392363948, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392364013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658871392364021, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1658871392364726, "dur":207645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390615824, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390615824, "dur":3634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390619466, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1658871390619525, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390619555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390620631, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1658871390626297, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1658871390626414, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390626544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390627798, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1658871390630648, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1658871390630780, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390630903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390630925, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1658871390632398, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1658871390632488, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390632528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390632541, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1658871390635806, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2.exe" }}
+,{ "pid":12345, "tid":6, "ts":1658871390635853, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390635906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390635912, "dur":148316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2.exe" }}
+,{ "pid":12345, "tid":6, "ts":1658871390784322, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871390784593, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390784754, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390784797, "dur":77773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871390862602, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871390862629, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390862679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390862692, "dur":100619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871390963350, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871390963381, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390963439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871390963457, "dur":336621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391300181, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391300231, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391300320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391300347, "dur":94510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391394880, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391394897, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391394927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391394935, "dur":54711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391449668, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391449682, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391449705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391449712, "dur":23334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391473065, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391473081, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391473113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391473122, "dur":50948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391524087, "dur":54850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391578940, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391579344, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391579393, "dur":7261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391586688, "dur":1802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391588491, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391588578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391588595, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391589842, "dur":1719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391591563, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391591648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391591665, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391592871, "dur":48831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391641704, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391641805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391641821, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391642837, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391642860, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391642902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391642912, "dur":120199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391763126, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391763141, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391763166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391763174, "dur":204857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391968051, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871391968069, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391968106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871391968114, "dur":371896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658871392340031, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1658871392340126, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392340152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392340159, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1658871392342712, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level9.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392342777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392342794, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level9.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392345310, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level8.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392345387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392345405, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level8.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392347503, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level7" }}
+,{ "pid":12345, "tid":6, "ts":1658871392347566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392347600, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level7" }}
+,{ "pid":12345, "tid":6, "ts":1658871392349469, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level5.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392349513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392349524, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level5.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392351311, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1658871392351357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392351368, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1658871392352891, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1658871392352931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392352942, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1658871392354278, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level15" }}
+,{ "pid":12345, "tid":6, "ts":1658871392354335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392354345, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level15" }}
+,{ "pid":12345, "tid":6, "ts":1658871392356384, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level13.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392356419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392356430, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level13.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392357741, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level12.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392357772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392357781, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level12.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392359121, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level11" }}
+,{ "pid":12345, "tid":6, "ts":1658871392359153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392359161, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level11" }}
+,{ "pid":12345, "tid":6, "ts":1658871392360497, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392360531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392360541, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658871392361870, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1658871392361901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392361910, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1658871392363694, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1658871392363731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658871392363742, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1658871392364567, "dur":207827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390616148, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390616149, "dur":3374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390619523, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1658871390619599, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390619624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390632953, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1658871390634315, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390634504, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390634551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390634560, "dur":147324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390782201, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390782351, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390782588, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390782650, "dur":80941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390863618, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390863643, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390863681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390863692, "dur":101020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390964740, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871390964765, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390964807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871390964819, "dur":52324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391017172, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391017199, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391017246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391017258, "dur":234082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391251397, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391251450, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391251541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391251564, "dur":77168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391328755, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391328777, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391328938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391328947, "dur":175753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391504740, "dur":471503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391976244, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391976301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391976310, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391978065, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871391978079, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391978107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658871391978113, "dur":395950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658871392374084, "dur":198293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390616305, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390616306, "dur":3181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390619487, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658871390619557, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390619594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390620531, "dur":5646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658871390626309, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1658871390626428, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390626539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390627050, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1658871390628510, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658871390628649, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390628698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390628749, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658871390630776, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1658871390630965, "dur":5042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390636015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390636117, "dur":14881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1658871390651060, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871390651082, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390651104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390651130, "dur":130913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871390782178, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871390782367, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390782538, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390782581, "dur":90774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871390873376, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871390873395, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390873422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871390873431, "dur":205579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391079033, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391079064, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391079097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391079107, "dur":45538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391124666, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391124687, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391124719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391124728, "dur":70513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391195256, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391195273, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391195385, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391195431, "dur":47550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391242997, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391243012, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391243037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391243045, "dur":97721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391340784, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391340801, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391340829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391340837, "dur":58010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391398960, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391399058, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391399243, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391399365, "dur":219457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391618841, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391618856, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391618878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391618885, "dur":235386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391854296, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391854319, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391854356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391854368, "dur":61753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391916142, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871391916159, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391916185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871391916194, "dur":86003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871392002233, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871392002267, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392002325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392002385, "dur":79722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871392082126, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871392082142, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392082174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392082181, "dur":204050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658871392286251, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1658871392286341, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392286369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392286497, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1658871392287274, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392287293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392287298, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392288599, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392289064, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392289110, "dur":10753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392299917, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392299961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392299972, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392301362, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1658871392301406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392301460, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1658871392302799, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392302844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392302857, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392305475, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392305518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392305531, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392306775, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1658871392306840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392306858, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1658871392307917, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392307951, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392307968, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392310175, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392310210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392310256, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392311241, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392311273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392311283, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392312184, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392312219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392312228, "dur":4306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392316556, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392316584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392316593, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392317374, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392317401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392317408, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392318190, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392318224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392318232, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392318948, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392318975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392318983, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392322468, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392322490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392322495, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658871392326264, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1658871392326296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392326303, "dur":16699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1658871392343127, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level9" }}
+,{ "pid":12345, "tid":8, "ts":1658871392343205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392343221, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level9" }}
+,{ "pid":12345, "tid":8, "ts":1658871392345724, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level7.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392345786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392345803, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level7.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392348715, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1658871392348799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392348820, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1658871392350259, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1658871392350302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392350313, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1658871392352299, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392352359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392352371, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392354084, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level15.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392354126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392354137, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level15.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658871392357070, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level13" }}
+,{ "pid":12345, "tid":8, "ts":1658871392357103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392357112, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level13" }}
+,{ "pid":12345, "tid":8, "ts":1658871392358324, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level12" }}
+,{ "pid":12345, "tid":8, "ts":1658871392358359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392358368, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level12" }}
+,{ "pid":12345, "tid":8, "ts":1658871392359426, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level10" }}
+,{ "pid":12345, "tid":8, "ts":1658871392359456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392359465, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level10" }}
+,{ "pid":12345, "tid":8, "ts":1658871392363279, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/BrickSmashers/Brick Breaker 2_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1658871392363303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658871392363310, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/BrickSmashers/Brick Breaker 2_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1658871392364213, "dur":208156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658871392574978, "dur":2458, "ph":"X", "name": "ProfilerWriteOutput" }
+,

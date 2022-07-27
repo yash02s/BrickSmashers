@@ -340,12 +340,12 @@ MonoBehaviour:
       type: 3}
     color:
       serializedVersion: 2
-      rgba: 2587704831
-  - brickPrefab: {fileID: 3757658324517680167, guid: 439828710b5f3354eac0e3f6acf16f5a,
+      rgba: 2583691519
+  - brickPrefab: {fileID: 3757658324517680167, guid: 7a208d121af67e548918dc07b5eaf19d,
       type: 3}
     color:
       serializedVersion: 2
-      rgba: 3006123062
+      rgba: 3003186958
   - brickPrefab: {fileID: 7876215715657977279, guid: 78ef328212304884da00509c0461442d,
       type: 3}
     color:
@@ -2405,7 +2405,7 @@ MonoBehaviour:
   - {fileID: 5459019789276499439, guid: a4466b3fd8c87e8479c7a9a947c70011, type: 3}
   - {fileID: 6779873245531091262, guid: 824e929fc206e3e4787094c1058a95ed, type: 3}
   - {fileID: 2849333375731824121, guid: 1bb88501571c19e44b7e44b176d2d8b6, type: 3}
-  dropChance: 35
+  dropChance: 30
 --- !u!4 &1400812783
 Transform:
   m_ObjectHideFlags: 0

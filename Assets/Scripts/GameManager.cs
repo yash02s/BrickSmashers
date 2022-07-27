@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     List<GameObject> brickList = new List<GameObject>();
     int lifes;
     public Text lifesText;
+    
+    
     void Awake()
     {
         instance = this;
@@ -35,6 +37,7 @@ void UpdateUI(){
 
 void RemoveLife()
 {
+    
     lifes--;
     UpdateUI();
     if(lifes==0)
@@ -92,7 +95,7 @@ public void LostBall(GameObject ball)
     }
     public void Multiball()
     {
-        int amount =2;
+        int amount =1;
 
         for (int i = ballList.Count-1; i >=0; i--)
         {

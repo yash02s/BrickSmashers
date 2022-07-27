@@ -342,6 +342,7 @@
 "Assets/Scripts/DeadZone.cs"
 "Assets/Scripts/DestroyObj.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/InfoToggle.cs"
 "Assets/Scripts/Level Designer/LevelDesigner.cs"
 "Assets/Scripts/Level Designer/SCR_Level.cs"
 "Assets/Scripts/LevelLoader.cs"
@@ -361,6 +362,7 @@
 "Assets/Scripts/PowerUp.cs"
 "Assets/Scripts/PowerUpManager.cs"
 "Assets/Scripts/ScoreManager.cs"
+"Assets/Scripts/Sound.cs"
 -langversion:9.0
 
 /deterministic

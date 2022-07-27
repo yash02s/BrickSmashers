@@ -111,6 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 4
-  score: 100
+  score: 150
   particlePrefab: {fileID: 4949260857446293947, guid: 78bc1775a86f6ea4cb65a8c6746ebea0,
     type: 3}

@@ -6,8 +6,11 @@ public class Bullet : MonoBehaviour
 {
     public int damage=10;
     public int speed = 50;
+    AudioSource audio;
     void Start()
     {
+        audio=GetComponent<AudioSource>();
+        audio.Play();
         Destroy(gameObject,1f);
     }
     void Update()
